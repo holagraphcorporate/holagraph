@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="en">
+  <head>   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178608163-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-178608163-1');
+</script>    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+              @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+      .main-head{
+          background: url("../images/6.jpeg") no-repeat;
+          background-position: center;
+          background-size: cover;
+          background-attachment: fixed;
+          position: relative;
+          height: 500px;
+          width: 100%;
+          z-index: 0;
+          padding-left: 80px;
+      }
+      .main-head::before{
+          content: "";
+          width: 100%;
+          height: 500px;
+          background: rgba(0, 0, 0, 0.72);
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: -1;
+      }
+      .main-head h1{
+          color: rgb(226, 245, 244);
+          font-size: 80px;
+          text-decoration: none;
+          letter-spacing: 5px;
+          word-spacing: 2.5px;
+      }
+      .main-head h1 b{
+          color: rgb(18, 199, 199);
+      }
+     
+      .holagraph h1{
+          text-align: center;
+      }
+      .holagraph span{
+          font-size: 20px;
+      }
+      .main-head img{
+          z-index: 5;
+          margin-top: 30px;
+          margin-bottom: 50px;
+      }
+      .main-head div{
+          text-align: center;
+      }
+      
+      @media(max-width: 1100px){
+           .laptop-pic{
+          width: 280px;
+      }
+      .main-head h1{
+          color: rgb(226, 245, 244);
+          font-size: 40px;
+          text-decoration: none;
+          letter-spacing: 5px;
+          word-spacing: 2.5px;
+      }
+      .holagraph {
+          margin-top: 150px;
+          margin-bottom: 150px;
+      }
+      }
+      @media(min-width: 1100px){
+           .laptop-pic{
+          width: 700px;
+      }
+      .holagraph {
+          margin-top: 50px;
+          margin-bottom: 150px;
+      }
+      .main-head h1{
+          color: rgb(226, 245, 244);
+          font-size: 80px;
+          text-decoration: none;
+          letter-spacing: 5px;
+          word-spacing: 2.5px;
+      }
+      }
+      .carousel-inner img {
+  width: 100%;
+}
+.carousel{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.teal-hr{
+  color: teal;
+  line-height: 20px;
+}
+hr {
+background-color: rgb(24, 201, 156);
+padding: 0;
+}
+
+hr.hr-1 {
+border: 0;
+height: 1px;
+background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+h5{
+line-height: 50px;
+}
+.footer-distributed {
+background-color: #292c2f;
+box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+box-sizing: border-box;
+width: 100%;
+text-align: left;
+font: normal 16px sans-serif;
+padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+color: #8f9296;
+font-size: 14px;
+margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+font-size: 18px;
+font-weight: bold;
+color: #ffffff;
+margin: 0 0 10px;
+padding: 0;
+transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+display: inline-block;
+line-height: 1.8;
+text-decoration: none;
+color: inherit;
+transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+content: "·";
+font-size: 20px;
+left: 0;
+color: #fff;
+display: inline-block;
+padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+content: none;
+}
+
+.footer-distributed .footer-right {
+float: right;
+margin-top: 6px;
+max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+display: inline-block;
+width: 35px;
+height: 35px;
+background-color: #33383b;
+border-radius: 2px;
+font-size: 20px;
+color: #ffffff;
+text-align: center;
+line-height: 35px;
+margin-left: 3px;
+transition:all .25s;
+}
+
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+.footer-distributed .footer-left, .footer-distributed .footer-right {
+  text-align: center;
+}
+.footer-distributed .footer-right {
+  float: none;
+  margin: 0 auto 20px;
+}
+.footer-distributed .footer-left p.footer-links {
+  line-height: 1.8;
+}
+}
+@media(min-width: 1100px){
+  .hola-img{
+      width: 500px;
+}
+
+}
+@media(max-width: 800px){
+  .hola-img{
+      width: 300px;
+  }
+}
+a{
+color: #053632;
+font-weight: 700;
+}
+a:hover{
+color: rgb(3, 46, 46);
+font-weight: 700;
+}
+.dots{
+display: inline-block;
+width: 10px;
+height: 10px;
+background-color: teal;
+margin-left: 10px;
+margin-right: 10px;
+}
+.site-footer
+{
+background-color:#26272b;
+padding:45px 0 20px;
+font-size:15px;
+line-height:24px;
+color:#737373;
+}
+.site-footer hr
+{
+border-top-color:#bbb;
+opacity:0.5
+}
+.site-footer hr.small
+{
+margin:20px 0
+}
+.site-footer h6
+{
+color:#fff;
+font-size:16px;
+text-transform:uppercase;
+margin-top:5px;
+letter-spacing:2px
+}
+.site-footer a
+{
+color:#737373;
+}
+.site-footer a:hover
+{
+color:#3366cc;
+text-decoration:none;
+}
+.footer-links
+{
+padding-left:0;
+list-style:none
+}
+.footer-links li
+{
+display:block
+}
+.footer-links a
+{
+color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+color:teal;
+text-decoration:none;
+}
+.footer-links.inline li
+{
+display:inline-block
+}
+.site-footer .social-icons
+{
+text-align:right
+}
+.site-footer .social-icons a
+{
+width:40px;
+height:40px;
+line-height:40px;
+margin-left:6px;
+margin-right:0;
+border-radius:100%;
+background-color:#33353d
+}
+.copyright-text
+{
+margin:0
+}
+@media (max-width:991px)
+{
+.site-footer [class^=col-]
+{
+  margin-bottom:30px
+}
+}
+@media (max-width:767px)
+{
+.site-footer
+{
+  padding-bottom:0
+}
+.site-footer .copyright-text,.site-footer .social-icons
+{
+  text-align:center
+}
+}
+.social-icons
+{
+padding-left:0;
+margin-bottom:0;
+list-style:none
+}
+.social-icons li
+{
+display:inline-block;
+margin-bottom:4px
+}
+.social-icons li.title
+{
+margin-right:15px;
+text-transform:uppercase;
+color:#96a2b2;
+font-weight:700;
+font-size:13px
+}
+.social-icons a{
+background-color:#eceeef;
+color:#818a91;
+font-size:16px;
+display:inline-block;
+line-height:44px;
+width:44px;
+height:44px;
+text-align:center;
+margin-right:8px;
+border-radius:100%;
+-webkit-transition:all .2s linear;
+-o-transition:all .2s linear;
+transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+color:#fff;
+background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+line-height:34px;
+height:34px;
+width:34px;
+font-size:14px
+}
+.social-icons a.facebook:hover
+{
+background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+.social-icons li.title
+{
+  display:block;
+  margin-right:0;
+  font-weight:600
+}
+}
+.footer-cont{
+max-width: 950px !important;
+}
+.hire-with{
+text-align: right;
+margin-right: 5%;
+}
+@media(min-width: 1100px){
+ .btwn{
+       position: absolute;
+       top: 40%;
+      
+     } 
+}
+.btwn{
+font-size: 45px !important;
+       color: #afd275 !important;
+}
+@media(min-width: 1000px){
+  .flex{
+  width: 45%;
+  display: inline-block;
+  position: relative;
+  font-family: 'Roboto Slab', serif;
+
+}
+
+}
+h7{
+  font-size: 20px;
+}
+.video{
+  display: inline-table;
+
+}
+@media(min-width: 1000px){
+  .video h4{
+  margin-left: 10px;
+}
+}
+
+video{
+  height: 550px;
+  margin-left: 20px;
+}
+    
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-light  ">
+    <a class="navbar-brand" href="../index.html" style="color: #116e67;">
+      <img src="../images/updated logo (1).png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+      holagraph
+    </a>
+  
+  </nav>
+  <div class="main-head">
+    <h1 class="btwn">Internships</h1>
+      <h1 class="hire-with"><br>Join<br><b> holagraph</b><br>TEAM</h1>
+      <div>
+      <!-- <img src="../images/smartmockups_kawm7uuf.png" class="laptop-pic"> -->
+  </div>
+
+      <!-- <hr class="hr-1"> -->
+  </div>
+  <div class="container holagraph">
+    <!-- <div >
+      <video  controls>
+        <source src="../images/WhatsApp Video 2020-09-20 at 1.52.28 AM.mp4" type="video/mp4">
+      
+      Your browser does not support the video tag.
+      </video>
+      <h4>
+      Ameya Kulkarni<br>
+      Masters in Computer Science<br>
+University of Southern California</h4>
+    </div> -->
+      <div >
+      <p>
+        <h2>If you are a training institution or an individual trainer, holagraph will provide you the tools and support to grow your organization.
+        </h4>
+        <br></p>
+        <h5>
+
+          a) Create your training organization profile on holagraph, create awareness about your training programmes and
+          register trainees.<br>
+       
+       b) Publish articles on holagraph and build your brand.<br>
+       
+       c) Network with industry professionals, domain experts in your location and beyond.<br>
+       
+       d) Search and apply for loans to meet your equipment and infrastructure needs.<br>
+       
+       e) Network with MSME s and large enterprises in your location and beyond, and understand their talent needs.
+            Many of them could provide Internshipss and jobs to your trainees.<br>
+       
+       f) Oursource getting Internshipss and job placements for your students to holagrah/ holagrah affiliated Partner as a         Managed Service<br>
+       
+       g) Post your talent needs in the Jobs section of holagraph and recruit right-fit training centre managers, counsellors         and trainers  to grow your business.<br>
+       
+       h) Use holagraph SaaS workflow tools to keep track of all your projects.    <br>
+      </h7>
+  </div>
+  <div class="video">
+    <video  controls>
+      <source src="../images/WhatsApp Video 2020-09-20 at 1.52.28 AM.mp4" type="video/mp4">
+    
+    Your browser does not support the video tag.
+    </video>
+    <h4 style="font-size: 20px;">
+    Ameya Kulkarni<br>
+    Masters in Computer Science<br>
+University of Southern California</h4>
+  </div>
+    <div class="video">
+    <video  controls>
+      <source src="../images/WhatsApp Video 2020-09-24 at 5.01.33 AM.mp4" type="video/mp4">
+    
+    Your browser does not support the video tag.
+    </video>
+    <h4 style="font-size: 20px;">
+      Devak Sinha
+      <br>
+      Data Science Intern<br>
+      B.Tech student, IIT Bombay<br></h4>
+  </div>
+    <div class="video">
+    <video  controls>
+      <source src="../WhatsApp Video 2020-09-29 at 11.20.08 PM.mp4" type="video/mp4">
+    
+    Your browser does not support the video tag.
+    </video>
+    <h4 style="font-size: 20px;">
+      Mahati
+      <br>
+      Masters in Information Systems<br>
+      ( Big Data Management and Analytics )<br>
+Georgia State University<br></h4>
+  </div>
+    <div class="video">
+    <video  controls>
+      <source src="../images/WhatsApp Video 2020-10-11 at 4.54.21 AM.mp4" type="video/mp4">
+    
+    Your browser does not support the video tag.
+    </video>
+    <h4 style="font-size: 20px;">
+      Anirudh Agarwal 
+      <br>
+      MBA Student <br>
+      Indian Institute of Management ( IIM), Ahmedabad<br>
+</h4>
+  </div>
+  <!-- <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/rita-morais-fJLyQ81u80Y-unsplash.jpg" alt="Los Angeles" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="images/evangeline-shaw-VLkoOabAxqw-unsplash.jpg" alt="Chicago" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="images/kevin-bhagat-zNRITe8NPqY-unsplash.jpg" alt="New York" width="1100" height="500">
+      </div>
+    </div>
+    
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div> -->
+  <!-- <hr> -->
+  <!-- <h1>Heading 2</h1>
+      <span>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+  </span> -->
+  </div>
+
+   <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            
+            <div class="col-xs-6 col-md-3">
+              <h6>About</h6>
+              <ul class="footer-links"><li><a href="../index.html">Home</a></li>
+                <li><a href="../About/about.html">What we do</a></li>
+          <!-- <li><a href="../About/our story.html">Our story
+                </a></li>
+                <li><a href="../About/vision.html">Vision
+                </a></li>
+                <li><a href="../About/mission.html">Mission</a></li>
+                <li><a href="../About/blog.html">Blog</a></li> -->
+              </ul>
+            </div>
+            <div class="col-xs-6 col-md-3">
+              <h6>Benefits for</h6>
+              <ul class="footer-links">
+                <li><a href="../Benefits For/Employees.html"> Employees
+                </a></li>
+                <li><a href="../Benefits For/freelancers.html"> Freelancers
+                </a></li>
+                <li><a href="../Benefits For/students.html">  Students
+                </a></li>
+                <li><a href="../Benefits For/employers.html"> Employers
+                </a></li>
+                <li><a href="../Benefits For/Trainig Professions.html"> Training Providers
+                </a></li>
+                <li><a href="../Benefits For/Loan providers.html"> Loan Providers</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Partners</h6>
+              <ul class="footer-links">
+                <li><a href="../Partners/HR consultants.html">HR Consultants 
+                </a></li>
+                <li><a href="../Partners/equipment supplier.html">Equipment Suppliers 
+                </a></li>
+                <li><a href="../Partners/domain experts.html">Domain Experts</a></li>
+                <li><a href="../Partners/content creators.html">Content Creators
+                </a></li>
+                <li><a href="../Partners/infrastructure - Copy.html">Infrastructure Providers
+                </a></li>
+                <!-- <li><a href="Partners/hg solution consultants.html">hg Solution Consultants</a></li> -->
+             </ul>
+            </div>
+            <div class="col-xs-6 col-md-3">
+              <h6>join the team</h6>
+              <ul class="footer-links">
+                <li><a href="growth  + sales.html">Growth + Sales
+  
+                </a></li>
+                <li><a href="product management.html">Product Management 
+  
+                </a></li>
+                <li><a href="data science.html">Data Science
+                </a></li>
+                <li><a href="design.html">Design
+                </a></li>
+                <li><a href="engineering.html">Engineering</a></li>
+<li><a href="Internships.html">Internships</a></li>      
+             </ul>
+            </div>
+                <!-- <div class="col-xs-6 col-md-3">
+              <h6>Resources</h6>
+              <ul class="footer-links">
+                <li><a href="../resources/help center.html">Help Centre
+  
+  
+                </a></li>
+                <li><a href="../resources/white paper.html">White Papers
+  
+  
+                </a></li>
+                <li><a href="../resources/case study.html">Case Studies
+  
+  
+                </a></li>
+                <li><a href="../resources/presentation.html">Presentation
+                </a></li>
+                <li><a href="../resources/news letter.html">Newsletter
+                </a></li>
+               </ul>
+            </div> -->
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">&copy;            <a href="#">holagraph</a>.
+                2020. All rights reserved
+              </p>
+            </div>
+  
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
+    
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
